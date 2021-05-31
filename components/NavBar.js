@@ -15,10 +15,10 @@ function NavBar() {
   return (
     <header className="flex items-center justify-between flex-wrap w-full py-10">
       <Logo color={logoColor}/>
-      <div className="grid justify-start grid-flow-col gap-4">
+      <div className="grid justify-start grid-flow-col gap-4 font-semibold">
         {
           menuElements.map((e) => (
-          <p>{e.name}</p>
+          <p className="opacity-80">{e.name}</p>
           ))
         }
       </div>
