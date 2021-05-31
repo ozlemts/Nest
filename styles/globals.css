@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    color: #001f3e;
+    outline: none;
+  }
+
+  button {
+    @apply text-gray-500 px-24 py-4 font-semibold rounded-lg shadow focus:outline-none bg-white shadow hover:bg-opacity-95 hover:shadow-md focus:ring-opacity-0;
+  }
+
+  .btn-primary {
+    @apply bg-blue-900 text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-red-500 text-white;
+  }
+  .colorful-shadow {
+    transform: translate(10px, -40px);
+    background: linear-gradient(58.37deg, #4FC1EC 0%, #9D4693 53.45%, #F3E617 100%);
+    filter: blur(30px);
+  }
+}
+
