@@ -1,5 +1,4 @@
 import Logo from "@/components/Logo";
-import { useState } from "react";
 import { useTheme } from "next-themes";
 
 const menuElements = [
@@ -12,18 +11,14 @@ const menuElements = [
 
 function NavBar() {
   const { theme, setTheme } = useTheme();
-  const [logoColor, setLogoColor] = useState("#A7A6D6");
-  const [modeIcon, setModeIcon] = useState("/moon.svg");
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
-    setLogoColor(theme === "light" ? "#A7A6D6" : "#222147");
-    setModeIcon(theme === "dark" ? "/moon.svg" : "/sun.svg");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
-      <Logo color={logoColor} />
+      <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
         {menuElements.map((e) => (
           <a
@@ -39,7 +34,7 @@ function NavBar() {
           className="w-10 h-10 p-3 rounded dark:bg-blue-500"
           onClick={() => toggleTheme()}
         >
-          <img src={modeIcon} />
+          <img src={theme === "light" ? "/moon.svg" : "/sun.svg"} />
         </button>
       </div>
     </nav>
