@@ -19,7 +19,7 @@ function Home() {
       </Head>
       <Layout>
         <Header />
-        <div className="lg:m-12 flex justify-center flex-wrap lg:rounded-lg lg:p-6 lg:pb-8 bg-gray-100">
+        <div className="lg:m-12 flex justify-center flex-wrap lg:rounded-lg lg:p-6 lg:pb-8">
           <div className="lg:max-w-md lg:mx-8 my-4">
             <p className="mb-4">
               Girişimcilik dinamizmini ve <br />

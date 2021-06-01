@@ -13,11 +13,11 @@
   }
 
   .btn-primary {
-    @apply bg-blue-500 text-white;
+    @apply bg-blue-500 text-white dark:bg-yellow-500 dark:text-blue-600;
   }
 
   .btn-secondary {
-    @apply bg-red-500 text-white;
+    @apply bg-red-500 text-white dark:text-blue-600;
   }
   .colorful-shadow {
     transform: translate(10px, 20px);

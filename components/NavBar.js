@@ -1,7 +1,6 @@
-import { useState, useEffect } from "react";
 import Logo from "@/components/Logo";
-
-const logoColor = "#222147";
+import { useState } from "react";
+import { useTheme } from "next-themes";
 
 const menuElements = [
   { name: "Programlar", targetUrl: "/" },
@@ -12,12 +11,23 @@ const menuElements = [
 ];
 
 function NavBar() {
+  const { theme, setTheme } = useTheme();
+  const [logoColor, setLogoColor] = useState("#A7A6D6");
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+    setLogoColor(theme === "light" ? "#A7A6D6" : "#222147");
+  };
+
   return (
-    <nav className="flex items-center justify-between flex-wrap py-6 bg-white">
+    <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow px-3 md:px-12 lg:px-36">
       <Logo color={logoColor} />
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
         {menuElements.map((e) => (
-          <a className="text-blue-400 hover:text-red-600" target={e.targetUrl}>
+          <a
+            className="text-gray-700 dark:text-blue-200 hover:text-red-600"
+            target={e.targetUrl}
+          >
             {e.name}
           </a>
         ))}
@@ -25,7 +35,7 @@ function NavBar() {
           aria-label="Toggle Dark Mode"
           type="button"
           className="w-10 h-10 p-3 rounded"
-          onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+          onClick={() => toggleTheme()}
         >
           <img src="/moon.svg" />
         </button>
