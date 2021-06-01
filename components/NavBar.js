@@ -13,14 +13,16 @@ const menuElements = [
 function NavBar() {
   const { theme, setTheme } = useTheme();
   const [logoColor, setLogoColor] = useState("#A7A6D6");
+  const [modeIcon, setModeIcon] = useState("/moon.svg");
 
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
     setLogoColor(theme === "light" ? "#A7A6D6" : "#222147");
+    setModeIcon(theme === "dark" ? "/moon.svg" : "/sun.svg");
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow px-3 md:px-12 lg:px-36">
+    <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
       <Logo color={logoColor} />
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
         {menuElements.map((e) => (
@@ -34,10 +36,10 @@ function NavBar() {
         <button
           aria-label="Toggle Dark Mode"
           type="button"
-          className="w-10 h-10 p-3 rounded"
+          className="w-10 h-10 p-3 rounded dark:bg-blue-500"
           onClick={() => toggleTheme()}
         >
-          <img src="/moon.svg" />
+          <img src={modeIcon} />
         </button>
       </div>
     </nav>
