@@ -13,7 +13,7 @@ const menuElements = [
 
 function NavBar() {
   return (
-    <header className="flex items-center justify-between flex-wrap w-full py-10">
+    <nav className="flex items-center justify-between flex-wrap py-6 bg-white">
       <Logo color={logoColor}/>
       <div className="grid justify-start grid-flow-col gap-4 font-semibold">
         {
@@ -22,7 +22,7 @@ function NavBar() {
           ))
         }
       </div>
-    </header>
+    </nav>
   );
 }
 
