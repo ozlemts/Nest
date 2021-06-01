@@ -4,7 +4,7 @@
 
 @layer components {
   body {
-    color: #0B132A;
+    color: #0b132a;
     outline: none;
   }
 
@@ -13,16 +13,20 @@
   }
 
   .btn-primary {
-    @apply bg-blue-900 text-white;
+    @apply bg-blue-500 text-white;
   }
 
   .btn-secondary {
     @apply bg-red-500 text-white;
   }
   .colorful-shadow {
-    transform: translate(10px, -40px);
-    background: linear-gradient(58.37deg, #4FC1EC 0%, #9D4693 53.45%, #F3E617 100%);
-    filter: blur(30px);
+    transform: translate(10px, 20px);
+    background: linear-gradient(
+      58.37deg,
+      #4fc1ec 0%,
+      #9d4693 53.45%,
+      #f3e617 100%
+    );
+    filter: blur(24px);
   }
 }
-
