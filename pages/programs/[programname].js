@@ -8,11 +8,11 @@ function ProgramPage() {
 
   return (
     <Layout>
-      <div className="mt-44">
-        <h1>The Project Page of Nest</h1>
-        <div className="w-72">
-          <p className="text-2xl font-bold"> Amaç</p>
-          <p className="w-1/2">
+      <div className="text-center mx-auto max-w-2xl">
+        <h1>{router.query.programname}</h1>
+        <div className="">
+          <p className="text-2xl font-bold mt-8"> Amaç</p>
+          <p className="mt-4">
             Duis eu velit tempus erat egestas efficitur. In hac habitasse platea
             dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra
             quis lacus at viverra. Class aptent taciti sociosqu ad litora
@@ -20,8 +20,8 @@ function ProgramPage() {
             auctor metus, id mollis lorem pellentesque id. Nullam posuere
             maximus dui et fringilla.{" "}
           </p>
-          <p className="text-2xl font-bold"> Kapsam</p>
-          <p className="">
+          <p className="text-2xl font-bold mt-8"> Kapsam</p>
+          <p className="mt-4">
             Duis eu velit tempus erat egestas efficitur. In hac habitasse platea
             dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra
             quis lacus at viverra. Class aptent taciti sociosqu ad litora

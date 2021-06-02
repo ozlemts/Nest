@@ -1,4 +1,5 @@
 import Logo from "@/components/Logo";
+import Link from "next/link";
 import { useTheme } from "next-themes";
 
 const menuElements = [
@@ -18,17 +19,17 @@ function NavBar() {
 
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
-      <a href="/">
+      <Link href="/">
         <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
-      </a>
+      </Link>
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
         {menuElements.map((e) => (
-          <a
+          <Link
             className="text-gray-700 dark:text-blue-200 hover:text-red-600"
             href={e.targetUrl}
           >
             {e.name}
-          </a>
+          </Link>
         ))}
         <button
           aria-label="Toggle Dark Mode"
