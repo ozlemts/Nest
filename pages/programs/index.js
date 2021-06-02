@@ -1,8 +1,10 @@
+import Layout from "@/components/Layout";
+
 function ProgramsPage() {
   return (
-    <div>
+    <Layout>
       <h1>All Projects</h1>
-    </div>
+    </Layout>
   );
 }
 

@@ -2,11 +2,11 @@ import Logo from "@/components/Logo";
 import { useTheme } from "next-themes";
 
 const menuElements = [
-  { name: "Programlar", targetUrl: "/" },
-  { name: "Nest-By", targetUrl: "/" },
-  { name: "Nest-In", targetUrl: "/create" },
-  { name: "Blog", targetUrl: "/startups" },
-  { name: "İletişim", targetUrl: "https://blog.viveka.com.tr/" },
+  { name: "Programlar", targetUrl: "/programs" },
+  { name: "Nest-By", targetUrl: "/nest-by" },
+  { name: "Nest-In", targetUrl: "/nest-in" },
+  { name: "Blog", targetUrl: "https://blog.viveka.com.tr/" },
+  { name: "İletişim", targetUrl: "/contact" },
 ];
 
 function NavBar() {
@@ -18,12 +18,14 @@ function NavBar() {
 
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
-      <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
+      <a href="/">
+        <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
+      </a>
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
         {menuElements.map((e) => (
           <a
             className="text-gray-700 dark:text-blue-200 hover:text-red-600"
-            target={e.targetUrl}
+            href={e.targetUrl}
           >
             {e.name}
           </a>
