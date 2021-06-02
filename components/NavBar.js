@@ -19,9 +19,7 @@ function NavBar() {
 
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
-      <Link href="/">
-        <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
-      </Link>
+      <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
         {menuElements.map((e) => (
           <Link

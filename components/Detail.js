@@ -23,7 +23,10 @@ function Detail() {
               girişimcileri desteklemek isteyen
               <br /> kurumlar için;
             </p>
-            <Button type="btn-primary"> Nest-By</Button>
+            <Button type="btn-primary" shadow>
+              {" "}
+              Nest-By
+            </Button>
           </div>
           <div className=" my-4">
             <p className="mb-4">
@@ -31,7 +34,10 @@ function Detail() {
               <br /> kültürüne entegre etmek isteyen
               <br /> kurumlar için;
             </p>
-            <Button type="btn-secondary"> Nest-In</Button>
+            <Button type="btn-secondary" shadow>
+              {" "}
+              Nest-In
+            </Button>
           </div>
         </div>
       </div>

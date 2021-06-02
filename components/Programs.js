@@ -1,5 +1,4 @@
 import Button from "@/components/Button";
-import Layout from "@/components/Layout";
 
 function Programs() {
   return (

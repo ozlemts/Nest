@@ -26,7 +26,10 @@ function Home() {
               girişimcileri desteklemek isteyen
               <br /> kurumlar için;
             </p>
-            <Button type="btn-primary"> Nest-By</Button>
+            <Button type="btn-primary" shadow>
+              {" "}
+              Nest-By
+            </Button>
           </div>
           <img src="/line.svg" className="hidden md:block" />
           <div className="lg:max-w-md lg:mx-8 my-4">
@@ -35,7 +38,10 @@ function Home() {
               <br /> kültürüne entegre etmek isteyen
               <br /> kurumlar için;
             </p>
-            <Button type="btn-secondary"> Nest-In</Button>
+            <Button type="btn-secondary" shadow>
+              {" "}
+              Nest-In
+            </Button>
           </div>
         </div>
         <Detail />
