@@ -11,7 +11,7 @@ function Header() {
           Nest özünde girişimcilik dinamizmini destekleyen ve bundan farklı
           olarak, bu dinamizmi kendi şirket kültürüne entegre etmek isteyen
           kurum ve şirketlere özel programlar tasarlayan, bu programları yürüten
-          bir yapıda kurulmuştur.{" "}
+          bir yapıda kurulmuştur.
         </p>
       </div>
       <div>
