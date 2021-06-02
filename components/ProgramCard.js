@@ -2,7 +2,7 @@ import Link from "next/link";
 import Button from "@/components/Button";
 function ProgramCard(props) {
   return (
-    <div className="border-2 rounded-lg px-8 py-5 w-80 my-4">
+    <div className="border-2 dark:border-blue-400 rounded-lg px-8 py-5 w-80 my-4">
       <div className="flex flex-col items-center">
         <img
           src={props.type === "nest-by" ? "/nest-by.png" : "/nest-in.png"}
@@ -11,8 +11,10 @@ function ProgramCard(props) {
         <Link href={props.program.url}>
           <img src={props.program.logo} className="my-8 h-12" />
         </Link>
-        <p className="text-2xl text-gray-500 font-bold">{props.program.name}</p>
-        <div className="text-blue-400 font-semibold">
+        <p className="text-2xl text-gray-500 dark:text-blue-100 font-semibold">
+          {props.program.name}
+        </p>
+        <div className="text-blue-400 dark:text-blue-300 font-semibold">
           <p>{props.program.status}</p>
           <p>({props.program.duration})</p>
         </div>
