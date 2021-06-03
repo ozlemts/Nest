@@ -10,6 +10,19 @@ function Home() {
     <div>
       <Head>
         <title>Nest | Where Ideas & People Grow</title>
+        <meta
+          name="description"
+          content="Nest özünde girişimcilik dinamizmini destekleyen ve bundan farklı olarak, bu dinamizmi kendi şirket kültürüne entegre etmek isteyen kurum ve şirketlere özel programlar tasarlayan, bu programları yürüten bir yapıda kurulmuştur. "
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@VivekaInc" />
+        <meta name="twitter:creator" content="twitter_creator" />
+        <meta name="twitter:title" content="NestIn | NestBy" />
+        <meta
+          name="twitter:description"
+          content="Nest özünde girişimcilik dinamizmini destekleyen"
+        />
+        <meta name="twitter:image" content="/seo-image.png" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
