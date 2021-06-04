@@ -20,8 +20,11 @@ function ProgramCard(props) {
         </div>
       </div>
       <ul>
-        {props.program.properties.map((e) => (
-          <li className="flex font-semibold  justify-start items-start text-gray-500 dark:text-blue-200 my-3 ">
+        {props.program.properties.map((e, index) => (
+          <li
+            className="flex font-semibold  justify-start items-start text-gray-500 dark:text-blue-200 my-3"
+            key={index}
+          >
             <img src="/green-ok.svg" className="mt-2 mr-2" /> {e}
           </li>
         ))}

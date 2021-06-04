@@ -20,11 +20,12 @@ function NavBar() {
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
       <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
-      <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold">
-        {menuElements.map((e) => (
+      <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold dark:text-blue-200 ">
+        {menuElements.map((e, index) => (
           <Link
-            className="text-gray-700 dark:text-blue-200 hover:text-red-600"
+            className="text-blue-300  hover:text-red-600 "
             href={e.targetUrl}
+            key={index}
           >
             {e.name}
           </Link>

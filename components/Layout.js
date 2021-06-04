@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 function Layout({ children }) {
   return (
     <div className="flex flex-col justify-between w-full bg-white dark:bg-blue-600 dark:text-blue-100">
-      <div className="w-full">
+      <div className="w-full background-img">
         <div className="fixed w-full z-50">
           <NavBar />
         </div>

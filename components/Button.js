@@ -13,7 +13,7 @@ const Button = ({ children, type, onClick, shadow }) => {
   const checkType = typeOptions.includes(type) ? type : typeOptions[0];
 
   return (
-    <div className="relative w-full flex flex-col justify-center items-center">
+    <div className="relative flex flex-col justify-center items-center">
       <div
         className={`w-56 h-12 absolute z-0 ${
           shadow ? "colorful-shadow" : ""

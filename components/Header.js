@@ -16,7 +16,7 @@ function Header() {
       </div>
       <div>
         <div className="hidden md:block w-full">
-          <img src="/nest-right.png" />
+          <img src="/right-1.svg" />
         </div>
       </div>
     </section>
