@@ -11,10 +11,21 @@ function Detail() {
         <p className="text-4xl font-medium"> Girişimcilik Programları</p>
         <p className="text-4xl font-medium"> Tasarlıyor ve Uyguluyoruz.</p>
         <ul className="my-4">
-          <li>Disiplinler Arası Birlikte Çalışma Prensibi</li>
-          <li>Aidiyet Duygusu</li>
-          <li>Farklı Ekip ve Yapılarla İş Birliği</li>
-          <li>Yalın ve Çevik Düşünce Prensipleri</li>
+          <li className="flex items-center">
+            <img src="/rounded-ok.svg" className="m-1" /> Disiplinler Arası
+            Birlikte Çalışma Prensibi
+          </li>
+          <li className="flex items-center">
+            <img src="/rounded-ok.svg" className="m-1" /> Aidiyet Duygusu
+          </li>
+          <li className="flex items-center">
+            <img src="/rounded-ok.svg" className="m-1" /> Farklı Ekip ve
+            Yapılarla İş Birliği
+          </li>
+          <li className="flex items-center">
+            <img src="/rounded-ok.svg" className="m-1" /> Yalın ve Çevik
+            Düşünce Prensipleri
+          </li>
         </ul>
         <div className="flex justify-between flex-wrap lg:mr-24">
           <div className=" my-4">

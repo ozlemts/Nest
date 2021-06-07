@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import Link from "next/link";
 
 function Programs() {
   return (
@@ -9,7 +10,9 @@ function Programs() {
         inceleyebilirsiniz.
       </p>
       <div className="my-6 text-center">
-        <Button type="btn-primary"> Programların Tamamı İçin</Button>
+        <Link href="/programs">
+          <Button type="btn-primary"> Programların Tamamı İçin</Button>
+        </Link>
       </div>
     </section>
   );

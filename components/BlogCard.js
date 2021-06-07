@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function BlogCard(props) {
   return (
-    <div className="rounded-lg px-8 shadow-lg w-96 text-left">
+    <div className="rounded-lg shadow-lg hover:shadow w-96 text-left">
       <img src="/sample.png" className="w-full" />
       <div className="p-5 ">
         <p className="text-xl font-bold my-4">It is a long established </p>
