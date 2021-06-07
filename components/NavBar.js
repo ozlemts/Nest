@@ -22,10 +22,10 @@ function NavBar() {
       <Logo color={theme === "light" ? "#222147" : "#A7A6D6"} />
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold dark:text-blue-400">
         {menuElements.map((e, index) => (
-          <Link
-            href={e.targetUrl}
-            key={index}
-          ><p className="hover:text-red-500 dark:hover:text-blue-200">{e.name}</p>
+          <Link href={e.targetUrl} key={index}>
+            <p className="hover:text-red-500 dark:hover:text-blue-200">
+              {e.name}
+            </p>
           </Link>
         ))}
         <button
