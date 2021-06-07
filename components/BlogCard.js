@@ -14,7 +14,7 @@ function BlogCard(props) {
         <div className="flex justify-between mt-3">
           <p>20 Mayıs 2021</p>
           <div className="font-bold">
-            <Link href="https://blog.viveka.com.tr/">Daha Fazla</Link>
+            <Link href="https://blog.viveka.com.tr/"><p className="hover:text-red-500">Daha Fazla</p></Link>
           </div>
         </div>
       </div>

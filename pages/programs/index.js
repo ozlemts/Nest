@@ -41,35 +41,35 @@ programs.forEach((e) => {
 });
 function ProgramsPage() {
   return (
-      <Layout>
-        <div className="text-center">
-          <p className="text-3xl font-bold">Programlar</p>
-          <p className="mt-4">
-            Şu an devam eden programlarımızı ve tamamlanmış programlarımızı
-            inceleyebilirsiniz.
-          </p>
-          <div className="flex flex-wrap my-8">
-            <Button type="btn-tab">Tüm Programlar</Button>
-            <Button type="btn-tab">Devam Edenler</Button>
-            <Button type="btn-tab">Tamamlananlar</Button>
-            <Button type="btn-tab">Nest-By</Button>
-            <Button type="btn-tab">Nest-in</Button>
-            <Button type="btn-tab">Hackhaton</Button>
-            <Button type="btn-tab">Ideathon</Button>
-            <Button type="btn-tab">Ön Kuluçka</Button>
-          </div>
+    <Layout>
+      <div className="text-center">
+        <p className="text-3xl font-bold">Programlar</p>
+        <p className="mt-4">
+          Şu an devam eden programlarımızı ve tamamlanmış programlarımızı
+          inceleyebilirsiniz.
+        </p>
+        <div className="flex justify-center flex-wrap my-8">
+          <Button type="btn-tab">Tüm Programlar</Button>
+          <Button type="btn-tab">Devam Edenler</Button>
+          <Button type="btn-tab">Tamamlananlar</Button>
+          <Button type="btn-tab">Nest-By</Button>
+          <Button type="btn-tab">Nest-in</Button>
+          <Button type="btn-tab">Hackhaton</Button>
+          <Button type="btn-tab">Ideathon</Button>
+          <Button type="btn-tab">Ön Kuluçka</Button>
         </div>
-        <div className="flex flex-wrap justify-between">
-          <ProgramCard program={programs[0]} />
-          <ProgramCard program={programs[1]} />
-          <ProgramCard program={programs[0]} />
-          <ProgramCard program={programs[0]} />
-          <ProgramCard program={programs[0]} />
-          <ProgramCard program={programs[0]} />
-          <ProgramCard program={programs[0]} />
-          <ProgramCard program={programs[0]} />
-        </div>
-      </Layout>
+      </div>
+      <div className="flex flex-wrap justify-center">
+        <ProgramCard program={programs[0]} />
+        <ProgramCard program={programs[1]} />
+        <ProgramCard program={programs[0]} />
+        <ProgramCard program={programs[0]} />
+        <ProgramCard program={programs[0]} />
+        <ProgramCard program={programs[0]} />
+        <ProgramCard program={programs[0]} />
+        <ProgramCard program={programs[0]} />
+      </div>
+    </Layout>
   );
 }
 

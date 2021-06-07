@@ -1,5 +1,5 @@
 import Button from "@/components/Button";
-import Layout from "@/components/Layout";
+import Link from "next/link";
 
 function Detail() {
   return (
@@ -34,10 +34,11 @@ function Detail() {
               girişimcileri desteklemek isteyen
               <br /> kurumlar için;
             </p>
-            <Button type="btn-primary" shadow>
-              {" "}
-              Nest-By
-            </Button>
+            <Link href="/nest-by">
+              <Button type="btn-primary" shadow>
+                Nest-By
+              </Button>
+            </Link>
           </div>
           <div className=" my-4">
             <p className="mb-4">
@@ -45,10 +46,11 @@ function Detail() {
               <br /> kültürüne entegre etmek isteyen
               <br /> kurumlar için;
             </p>
-            <Button type="btn-secondary" shadow>
-              {" "}
-              Nest-In
-            </Button>
+            <Link href="/nest-in">
+              <Button type="btn-secondary" shadow>
+                Nest-In
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
