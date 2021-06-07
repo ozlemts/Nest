@@ -21,7 +21,7 @@
   }
 
   .btn-secondary-ghost {
-    @apply bg-white dark:bg-blue-500 hover:bg-red-500 px-16 py-2 text-red-500 dark:text-blue-200 hover:text-white border-2 border-red-500 dark:border-blue-400 rounded-full;
+    @apply bg-white dark:bg-blue-500 hover:bg-red-500 px-16 py-2 text-red-500 dark:text-blue-200 hover:text-white dark:hover:text-white border-2 border-red-500 dark:border-blue-400 rounded-full;
   }
 
   .btn-tab {
@@ -38,7 +38,7 @@
     filter: blur(24px);
   }
 
-  .background-img {
+  #homepage .background-img {
     background-image: url("/bg.svg");
     background-repeat: no-repeat;
     background-position: right 10px top 10px;

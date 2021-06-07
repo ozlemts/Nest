@@ -33,7 +33,8 @@ function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Layout>
+      <div id="homepage">
+        <Layout>
         <Header />
         <div className="lg:p-12 lg:mx-24 flex justify-center flex-wrap lg:rounded-xl lg:p-6 shadow-lg lg:pb-8 bg-white dark:bg-blue-500 dark:text-blue-200">
           <div className="lg:max-w-md lg:mx-8 my-4">
@@ -66,6 +67,7 @@ function Home() {
         <Testimonials />
         <Blog />
       </Layout>
+      </div>
     </div>
   );
 }

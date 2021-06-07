@@ -23,8 +23,8 @@ function Detail() {
             Yapılarla İş Birliği
           </li>
           <li className="flex items-center">
-            <img src="/rounded-ok.svg" className="m-1" /> Yalın ve Çevik
-            Düşünce Prensipleri
+            <img src="/rounded-ok.svg" className="m-1" /> Yalın ve Çevik Düşünce
+            Prensipleri
           </li>
         </ul>
         <div className="flex justify-between flex-wrap lg:mr-24">

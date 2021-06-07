@@ -4,15 +4,16 @@ import BlogCard from "@/components/BlogCard";
 
 function Blog() {
   return (
-    <section id="blog" className="text-center w-full mt-24 lg:px-24">
+    <section id="blog" className="text-center w-full mt-24 lg:px-24 dark:text-blue-200">
       <p className="text-3xl font-bold my-12">Blog</p>
       <div>
-        <div className="shadow-lg flex rounded">
+        <div className="shadow-lg flex rounded dark:bg-blue-500">
           <div className="w-3/5 p-8 text-left">
             <p className="text-2xl font-bold ">Long established</p>
             <p className="mt-8 text-gray-400">
               It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
+              the readable content of a page when looking
+              at its layout. The
               point of using Lorem Ipsum is that....
             </p>
             <div className="flex justify-between mt-3">
