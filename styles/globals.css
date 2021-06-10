@@ -44,4 +44,8 @@
     background-position: right 10px top 10px;
     top: 0;
   }
+
+  .testimonial-card {
+    min-width: 350px;
+  }
 }
