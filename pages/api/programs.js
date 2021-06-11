@@ -22,4 +22,15 @@ async function getTable(table) {
   return minifiedRecords;
 }
 
-export { getTable };
+// This function gets called at build time
+async function getAllPostIds() {
+  return {
+    // Only `/posts/1` and `/posts/2` are generated at build time
+    paths: [{ params: { id: "1" } }, { params: { id: "2" } }],
+    // Enable statically generating additional pages
+    // For example: `/posts/3`
+    fallback: true,
+  };
+}
+
+export { getTable, getAllPostIds };

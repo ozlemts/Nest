@@ -5,7 +5,9 @@ function BlogCard(props) {
     <div className="rounded-lg shadow-lg hover:shadow w-96 text-left dark:bg-blue-500">
       <img src="/sample.png" className="w-full" />
       <div className="p-5 ">
-        <p className="text-xl font-bold my-4 dark:text-blue-100">It is a long established </p>
+        <p className="text-xl font-bold my-4 dark:text-blue-100">
+          It is a long established{" "}
+        </p>
         <p className="text-gray-400">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of

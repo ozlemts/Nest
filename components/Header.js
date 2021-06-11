@@ -2,7 +2,7 @@ function Header() {
   return (
     <section
       id="header"
-      className="w-full flex justify-between my-12 flex-wrap"
+      className="w-full flex justify-between my-18 flex-wrap"
     >
       <div className=" w-full md:w-1/2">
         <p className="text-6xl font-medium dark:text-blue-100"> Girişimcilik</p>

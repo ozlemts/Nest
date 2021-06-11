@@ -19,7 +19,7 @@ function NavBar() {
 
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 dark:bg-blue-600 bg-white shadow-sm px-3 md:px-12 lg:px-36">
-      <Logo className="text-red-500"/>
+      <Logo className="text-red-500" />
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold dark:text-blue-100">
         {menuElements.map((e, index) => (
           <Link href={e.targetUrl} key={index}>

@@ -44,7 +44,7 @@ function Layout({ children }) {
           <div className="fixed w-full z-50">
             <NavBar />
           </div>
-          <div className="mt-48 w-full px-3 md:px-12 lg:px-36">{children}</div>
+          <div className="mt-36 w-full px-3 md:px-12 lg:px-36">{children}</div>
         </div>
         <Footer />
       </div>

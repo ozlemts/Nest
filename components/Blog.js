@@ -12,7 +12,9 @@ function Blog() {
       <div>
         <div className="shadow-lg flex rounded dark:bg-blue-500">
           <div className="w-3/5 p-8 text-left">
-            <p className="text-2xl font-bold dark:text-blue-100">Long established</p>
+            <p className="text-2xl font-bold dark:text-blue-100">
+              Long established
+            </p>
             <p className="mt-8 text-gray-400">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
@@ -33,7 +35,10 @@ function Blog() {
           <BlogCard />
         </div>
         <div className="my-6 text-center">
-          <Button type="btn-primary" shadow> Daha Fazlası İçin</Button>
+          <Button type="btn-primary" shadow>
+            {" "}
+            Daha Fazlası İçin
+          </Button>
         </div>
       </div>
     </section>
