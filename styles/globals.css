@@ -27,6 +27,16 @@
   .btn-tab {
     @apply bg-gray-100 px-2 py-2 w-full dark:bg-blue-400 dark:text-blue-200 w-40 m-1;
   }
+
+  .custom-container {
+    @apply mt-36 w-full px-3 md:px-12 lg:px-36;
+  }
+  .program-cover {
+    height: 30rem;
+  }
+  .program-summary {
+    transform: translate(0, -4rem);
+  }
   .colorful-shadow {
     transform: translate(10px, 20px);
     background: linear-gradient(

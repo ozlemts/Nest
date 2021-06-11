@@ -6,7 +6,7 @@ import { getTable } from "/pages/api/programs";
 function ProgramsPage({ data }) {
   return (
     <Layout>
-      <div className="text-center">
+      <div className="custom-container text-center">
         <p className="text-3xl font-bold">Programlar</p>
         <p className="mt-4">
           Şu an devam eden programlarımızı ve tamamlanmış programlarımızı
