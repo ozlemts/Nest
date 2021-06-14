@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Link from "next/link";
-import Button from "@/components/Button";
 import Layout from "@/components/Layout";
 import Header from "@/components/Header";
 import Detail from "@/components/Detail";
