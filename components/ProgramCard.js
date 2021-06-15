@@ -3,6 +3,7 @@ import Button from "@/components/Button";
 
 function ProgramCard(props) {
   const link = "/programs/" + props.program.id;
+
   return (
     <div className="border-2 border-gray-100 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2">
       <div className="flex flex-col items-center">
@@ -11,7 +12,7 @@ function ProgramCard(props) {
           className="w-24"
         />
         <Link href={props.program.url}>
-          <img src={props.program.logo} className="my-8 h-12" />
+          <img src={props.program.logo[0].url} className="my-8 h-12" />
         </Link>
         <p className="text-2xl text-gray-500 dark:text-blue-100 font-semibold">
           {props.program.name}
