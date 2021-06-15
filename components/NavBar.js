@@ -1,6 +1,7 @@
 import Logo from "@/components/Logo";
 import Link from "next/link";
 import { useTheme } from "next-themes";
+import Menu from "@/components/Menu";
 
 const menuElements = [
   { name: "Programlar", targetUrl: "/programs" },
@@ -23,7 +24,7 @@ function NavBar() {
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold dark:text-blue-100">
         {menuElements.map((e, index) => (
           <Link href={e.targetUrl} key={index}>
-            <p className="hover:text-red-500 dark:hover:text-blue-200">
+            <p className="hidden md:block hover:text-red-500 dark:hover:text-blue-200">
               {e.name}
             </p>
           </Link>
@@ -36,6 +37,15 @@ function NavBar() {
         >
           <img src={theme === "light" ? "/moon.svg" : "/sun.svg"} />
         </button>
+        <div className="md:hidden">
+          <button
+            type="button"
+            className="w-10 h-10 flex justify-center items-center rounded dark:bg-blue-500"
+            onClick={() => toggleTheme()}
+          >
+            <Menu />
+          </button>
+        </div>
       </div>
     </nav>
   );

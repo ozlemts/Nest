@@ -10,8 +10,8 @@ function Blog() {
     >
       <p className="text-3xl font-bold my-12">Blog</p>
       <div>
-        <div className="shadow-lg flex rounded dark:bg-blue-500">
-          <div className="w-3/5 p-8 text-left">
+        <div className="shadow-lg flex flex-wrap rounded dark:bg-blue-500">
+          <div className="lg:w-3/5 p-8 text-left">
             <p className="text-2xl font-bold dark:text-blue-100">
               Long established
             </p>
@@ -27,7 +27,7 @@ function Blog() {
               </div>
             </div>
           </div>
-          <img src="/sample.png" className="w-2/5" />
+          <img src="/sample.png" className="lg:w-2/5" />
         </div>
         <div className="flex flex-wrap justify-between my-8">
           <BlogCard />
@@ -36,8 +36,7 @@ function Blog() {
         </div>
         <div className="my-6 text-center">
           <Button type="btn-primary" shadow>
-            {" "}
-            Daha Fazlası İçin
+            {"Daha Fazlası İçin "}
           </Button>
         </div>
       </div>
