@@ -11,7 +11,10 @@ function Programs() {
       </p>
       <div className="my-6 text-center">
         <Link href="/programs">
-          <Button type="btn-primary"> Programların Tamamı İçin</Button>
+          <Button type="btn-primary" shadow>
+            {" "}
+            Programların Tamamı İçin
+          </Button>
         </Link>
       </div>
     </section>

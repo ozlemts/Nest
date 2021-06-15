@@ -7,15 +7,13 @@ function Header() {
       <div className="w-full flex justify-between my-18 flex-wrap">
         <div className=" w-full md:w-1/2">
           <p className="text-6xl font-medium dark:text-blue-100">
-            {" "}
-            Girişimcilik
+            {"Fikirleri"}
           </p>
-          <p className="text-6xl font-bold dark:text-blue-100"> Dinamizmi!</p>
+          <p className="text-6xl font-bold dark:text-blue-100"> Büyütüyoruz!</p>
           <p className=" my-6 font-semibold text-gray-700 max-w-lg dark:text-blue-200">
-            Nest özünde girişimcilik dinamizmini destekleyen ve bundan farklı
-            olarak, bu dinamizmi kendi şirket kültürüne entegre etmek isteyen
-            kurum ve şirketlere özel programlar tasarlayan, bu programları
-            yürüten bir yapıda kurulmuştur.
+            Kurumların inovasyona erişimi için yenilikçi iş fikirlerini hem iç
+            hem dış ekosistemle geliştirmeleri için programlar tasarlıyor ve
+            yürütüyoruz.
           </p>
         </div>
         <div>
