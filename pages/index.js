@@ -5,6 +5,7 @@ import Programs from "@/components/Programs";
 import Referances from "@/components/Referances";
 import Testimonials from "@/components/Testimonials";
 import Blog from "@/components/Blog";
+import LogoSlider from "@/components/LogoSlider";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
             <Programs />
             <Referances />
             <Testimonials />
+            <LogoSlider />
             <Blog />
           </div>
         </Layout>

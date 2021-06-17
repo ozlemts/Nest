@@ -10,7 +10,7 @@ function Footer() {
           <Facebook />
         </div>
       </div>
-      <p className="text-sm text-gray-500 bg-white dark:bg-blue-500 p-1">
+      <p className="text-sm text-gray-500 bg-white dark:bg-blue-500 tracking-widest p-1">
         2021@NEST
       </p>
     </div>

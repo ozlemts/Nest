@@ -58,4 +58,32 @@
   .testimonial-card {
     min-width: 350px;
   }
+
+  .logo-slider-wrapper {
+    animation: 80s linear 0s infinite normal none running logo-animation;
+  }
+  .logo-svg {
+    display: inline-block;
+    padding: 0px 2rem;
+    vertical-align: middle;
+    opacity: 0.6;
+    filter: grayscale(100%);
+    outline: none;
+    cursor: default;
+    transition: opacity 0.3s ease 0s;
+  }
+}
+
+@keyframes logo-animation {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
 }

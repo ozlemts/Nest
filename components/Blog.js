@@ -16,7 +16,7 @@ const BlogData = [
     title: "Girişim Gelişim Döngüleri",
     url: "https://blog.viveka.com.tr/girisim-gelisim-donguleri/",
     description:
-      "Sevgili Zoom`un yorgun savaşçıları...Uzaktan çalışmaya geçtiğimiz zamandan beri bir seneden fazla geçti. Geçirdiğimiz dönemin zorlukları ve ortak kayıplarımız gölgesinde yazı yazmak eskisinden biraz daha güç. ",
+      "Sevgili Zoom`un yorgun savaşçıları... Uzaktan çalışmaya geçtiğimiz zamandan beri bir seneden fazla geçti. Geçirdiğimiz dönemin zorlukları ve ortak kayıplarımız gölgesinde yazı yazmak eskisinden biraz daha güç. ",
     date: "8 Haziran 2021",
     img_url:
       "https://blog.viveka.com.tr/content/images/size/w2000/2021/06/pexels-daniel-torobekov-4886378-1.jpg",
