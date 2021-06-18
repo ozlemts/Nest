@@ -1,6 +1,6 @@
 function LogoSlider() {
   return (
-    <div className="my-24">
+    <div className="my-8 py-6 dark:bg-blue-100">
       <div className="overflow-hidden whitespace-nowrap">
         <div className="logo-slider-wrapper inline-block whitespace-nowrap overflow-hidden">
           <div className="inline-block">

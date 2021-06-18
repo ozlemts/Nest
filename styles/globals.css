@@ -55,6 +55,12 @@
     top: 0;
   }
 
+  @media (max-width: 768px) {
+    #homepage .background-img {
+      background-image: none;
+    }
+  }
+
   .testimonial-card {
     min-width: 350px;
   }
