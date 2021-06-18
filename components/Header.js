@@ -6,10 +6,13 @@ function Header() {
     <section id="header">
       <div className="w-full flex justify-between my-18 flex-wrap">
         <div className=" w-full md:w-1/2">
-          <p className="text-6xl font-medium dark:text-blue-100">
+          <p className="text-4xl lg:text-6xl font-medium dark:text-blue-100">
             {"Fikirleri"}
           </p>
-          <p className="text-6xl font-bold dark:text-blue-100"> Büyütüyoruz!</p>
+          <p className="text-4xl lg:text-6xl font-bold dark:text-blue-100">
+            {" "}
+            Büyütüyoruz!
+          </p>
           <p className=" my-6 font-semibold text-gray-700 max-w-lg dark:text-blue-200">
             Kurumların inovasyona erişimi için yenilikçi iş fikirlerini hem iç
             hem dış ekosistemle geliştirmeleri için programlar tasarlıyor ve
