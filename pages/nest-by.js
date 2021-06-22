@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import CircleMenu from "@/components/CircleMenu";
 
 function NestbyPage() {
   return (
@@ -44,6 +45,7 @@ function NestbyPage() {
           </p>
         </div>
       </div>
+      <CircleMenu />
     </Layout>
   );
 }
