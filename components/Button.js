@@ -1,10 +1,11 @@
 import React from "react";
 
-const Button = ({ children, type, onClick, shadow }) => {
+const Button = ({ children, type, onClick, shadow, size }) => {
   const typeOptions = [
     "btn",
     "btn-primary",
     "btn-secondary",
+    "btn-ternary",
     "btn-primary-ghost",
     "btn-secondary-ghost",
     "btn-tab",
@@ -19,7 +20,10 @@ const Button = ({ children, type, onClick, shadow }) => {
           shadow ? "colorful-shadow" : ""
         } z-10`}
       ></div>
-      <button className={`btn ${checkType} z-10`} onClick={onClick}>
+      <button
+        className={`btn ${checkType} z-10 ${size ? "btn-big" : ""}`}
+        onClick={onClick}
+      >
         {children}
       </button>
     </div>
