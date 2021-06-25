@@ -12,8 +12,7 @@ function Programs() {
       <div className="my-6 text-center">
         <Link href="/programs">
           <Button type="btn-primary" shadow>
-            {" "}
-            Programların Tamamı İçin
+            {"Programların Tamamı İçin "}
           </Button>
         </Link>
       </div>

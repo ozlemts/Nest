@@ -8,7 +8,6 @@ const menuElements = [
   { name: "Nest-By", targetUrl: "/nest-by" },
   { name: "Nest-In", targetUrl: "/nest-in" },
   { name: "Blog", targetUrl: "https://blog.viveka.com.tr/" },
-  { name: "İletişim", targetUrl: "/contact" },
 ];
 
 function NavBar() {

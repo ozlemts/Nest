@@ -3,7 +3,7 @@ import Facebook from "@/components/Facebook";
 
 function Footer() {
   return (
-    <div className="w-full mt-12 bg-blue-50 dark:bg-blue-700 text-center">
+    <div className="w-full mt-6 lg:mt-12 bg-blue-50 dark:bg-blue-700 text-center">
       <div className="px-3 lg:px-36 md:px-12 flex justify-between p-6 text-gray-500">
         <Logo />
         <div>

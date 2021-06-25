@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Button from "@/components/Button";
-
 function Header() {
   return (
     <section id="header">

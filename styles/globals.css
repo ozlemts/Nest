@@ -37,7 +37,7 @@
   }
 
   .custom-container {
-    @apply mt-36 w-full px-3 md:px-12 lg:px-36;
+    @apply mt-6 w-full px-3 md:px-12 lg:px-36;
   }
   .program-cover {
     height: 30rem;
@@ -110,41 +110,41 @@
 .circle-elements {
   transform: translate(300px, 300px);
 }
-.item-1 {
+.item-0 {
   transform: rotate(15deg) translate(-350px);
 }
-.reverse-1 {
+.reverse-0 {
   transform: rotate(15deg);
 }
+.item-1 {
+  transform: rotate(40deg) translate(-350px);
+}
+.reverse-1 {
+  transform: rotate(-40deg);
+}
 .item-2 {
-  transform: rotate(45deg) translate(-350px);
+  transform: rotate(67deg) translate(-350px);
 }
 .reverse-2 {
-  transform: rotate(-45deg);
+  transform: rotate(-67deg);
 }
 .item-3 {
-  transform: rotate(75deg) translate(-350px);
+  transform: rotate(100deg) translate(-330px);
 }
 .reverse-3 {
-  transform: rotate(-75deg);
+  transform: rotate(-100deg);
 }
 .item-4 {
-  transform: rotate(105deg) translate(-350px);
+  transform: rotate(130deg) translate(-300px);
 }
 .reverse-4 {
-  transform: rotate(-105deg);
+  transform: rotate(-130deg);
 }
 .item-5 {
-  transform: rotate(135deg) translate(-290px);
+  transform: rotate(161deg) translate(-275px);
 }
 .reverse-5 {
-  transform: rotate(-135deg);
-}
-.item-6 {
-  transform: rotate(165deg) translate(-270px);
-}
-.reverse-6 {
-  transform: rotate(-165deg);
+  transform: rotate(-161deg);
 }
 
 .colorful-border {

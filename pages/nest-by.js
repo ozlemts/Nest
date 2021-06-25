@@ -24,28 +24,35 @@ function NestbyPage() {
           />
         </div>
         <div className="custom-container text-center">
-          <p className="text-2xl font-bold mt-12">Ön Kuluçka Yaklaşımı</p>
+          <p className="text-2xl font-bold mt-4 lg:mt-12">Ön Kuluçka Yaklaşımı</p>
           <p className="mt-6">
             Erken aşama girişimcilerin fikirlerini olgunlaştırıp ürüne
             <br /> dönüştürmelerine ve şirketleşmelerine destek olan
             programlardır.
           </p>
+          <div className="my-6 lg:my-12 flex justify-center">
+            <img src="/on-kulucka.png" className="lg:h-96"/>
+          </div>
           <p className="text-2xl font-bold mt-12">
-            Ön Kuluçka Program Çıktıları
+            Ön Kuluçka Programı
           </p>
-          <p className="mt-6">Programın Donöre Faydaları.</p>
-          <p className="">Programın Girişimciye Faydaları.</p>
+          <div className="my-6 lg:my-12 flex justify-center">
+            <img src="/on-kulucka-programi.png" className="lg:h-80"/>
+          </div>
+
           <p className="text-2xl font-bold mt-12">
             Nest-By Modül ve Metodolojileri
           </p>
-          <p className="mt-6">
-            Modül ve metodolojiler hem ön kuluçka programında
-            <br /> kullanılmakta hem de kurum ihtiyacına göre modül olarak da
+          <p className="mt-6 mx-auto">
+            Modül ve metodolojiler hem ön kuluçka programında <br/>
+            kullanılmakta hem de kurum ihtiyacına göre modül olarak da <br/>
             gerçekleştirilebilmektedir.
           </p>
+          <div className="my-6 lg:my-12 flex justify-center">
+            <img src="/nest-by-circle.png" className="lg:h-80"/>
+          </div>
         </div>
       </div>
-      <CircleMenu />
     </Layout>
   );
 }
