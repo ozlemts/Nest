@@ -6,13 +6,16 @@ function ProgramCard(props) {
 
   return (
     <div className="border-2 border-gray-100 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center text-center">
         <img
           src={props.type === "nest-by" ? "/nest-by.png" : "/nest-in.png"}
           className="w-24"
         />
         <Link href={props.program.url}>
-          <img src={props.program.logo[0].url} className="my-8 h-12" />
+          <img
+            src={props.program.logo ? props.program.logo[0].url : "/moon.svg"}
+            className="my-8 h-12"
+          />
         </Link>
         <p className="text-2xl text-gray-500 dark:text-blue-100 font-semibold">
           {props.program.name}
@@ -22,7 +25,7 @@ function ProgramCard(props) {
           <p>({props.program.duration})</p>
         </div>
       </div>
-      <ul>
+      <ul className="h-52">
         {props.program.properties.map((e, index) => (
           <li
             className="flex font-semibold  justify-start items-start text-gray-500 dark:text-blue-200 my-3"
@@ -32,7 +35,7 @@ function ProgramCard(props) {
           </li>
         ))}
       </ul>
-      <Link href={link}>
+      <Link href={link ? "/programs" : "link"}>
         <Button type="btn-secondary-ghost">İncele</Button>
       </Link>
     </div>

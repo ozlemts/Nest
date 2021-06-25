@@ -1,53 +1,55 @@
 import Logo from "@/components/Logo";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 function CircleMenu() {
-
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleSelectedIdx = (index) => {
-    setActiveIndex(index)
-  }
+    setActiveIndex(index);
+  };
 
   const circleElements = [
     {
-      title:'Ideathon',
-      desc:'Fikir Üretme',
-      icon:'/moon.svg'
+      title: "Ideathon",
+      desc: "Fikir Üretme",
+      icon: "/moon.svg",
     },
     {
-      title:'Hackathon',
-      desc:'Prototip Üretme',
-      icon:'/sun.svg'
+      title: "Hackathon",
+      desc: "Prototip Üretme",
+      icon: "/sun.svg",
     },
     {
-      title:'Sprint',
-      desc:'Yeni Ürün Geliştirme',
-      icon:'/moon.svg'
+      title: "Sprint",
+      desc: "Yeni Ürün Geliştirme",
+      icon: "/moon.svg",
     },
     {
-      title:'Meetups',
-      desc:'Deneyim Paylaşımı',
-      icon:'/moon.svg'
+      title: "Meetups",
+      desc: "Deneyim Paylaşımı",
+      icon: "/moon.svg",
     },
     {
-      title:'Eğitim',
-      desc:'Alana Özel Eğitimler',
-      icon:'/moon.svg'
+      title: "Eğitim",
+      desc: "Alana Özel Eğitimler",
+      icon: "/moon.svg",
     },
     {
-      title:'Mentorluk',
-      desc:'1-1 Mentorlük',
-      icon:'/moon.svg'
-    }
-  ]
+      title: "Mentorluk",
+      desc: "1-1 Mentorlük",
+      icon: "/moon.svg",
+    },
+  ];
   return (
     <div className="rotated-half-circle bg-blue-500 mx-auto my-16">
       <div className="circle-elements relative">
         <div>
           {circleElements.map((e, index) => (
-            <div key={e} className={`item-${index} absolute`}
-                 onClick={() => handleSelectedIdx(index)}>
+            <div
+              key={e}
+              className={`item-${index} absolute`}
+              onClick={() => handleSelectedIdx(index)}
+            >
               <div className={`reverse-${index}`}>
                 <img
                   src={e.icon}
@@ -65,12 +67,13 @@ function CircleMenu() {
           <p className="text-2xl font-bold text-white">
             {circleElements[activeIndex].title}
           </p>
-          <p className="text-xl text-white mt-1">{circleElements[activeIndex].desc}</p>
+          <p className="text-xl text-white mt-1">
+            {circleElements[activeIndex].desc}
+          </p>
         </div>
         <div className="dark text-center pl-4">
-          <Logo className="white"/>
+          <Logo className="white" />
         </div>
-
       </div>
     </div>
   );

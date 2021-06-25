@@ -38,6 +38,8 @@
 
   .custom-container {
     @apply mt-6 w-full px-3 md:px-12 lg:px-36;
+    max-width: 1800px;
+    margin: 0 auto;
   }
   .program-cover {
     height: 30rem;

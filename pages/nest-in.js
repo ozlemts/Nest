@@ -34,48 +34,67 @@ function NestinPage() {
             çalışmalarını sağlamayı hedefleyen programlardır.
           </p>
 
-
           <div className="flex justify-center flex-wrap my-2">
-          <ul className="m-6">
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /> <span>Problem/süreç iyileştirme</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /> <span>Kurumsal aidiyet ve takımdaşlık <br/>duygusunu güçlendirme</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /><span>İnovasyona dair yeni stratejiler üretme</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /><span>Takım ve ekipleri canlandırma/yeni <br/> bakış açısı/perspektif getirme</span>
-            </li>
-          </ul>
+            <ul className="m-6">
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />{" "}
+                <span>Problem/süreç iyileştirme</span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />{" "}
+                <span>
+                  Kurumsal aidiyet ve takımdaşlık <br />
+                  duygusunu güçlendirme
+                </span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />
+                <span>İnovasyona dair yeni stratejiler üretme</span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />
+                <span>
+                  Takım ve ekipleri canlandırma/yeni <br /> bakış
+                  açısı/perspektif getirme
+                </span>
+              </li>
+            </ul>
 
-          <ul className="m-6">
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /> <span>Yeni kurumsal süreçlerin tasarlanması</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /><span> Yeni proje kurgulama</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /> <span>Yeni takım oluşturma</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /> <span>Yeni Ürün/süreç tasarlama</span>
-            </li>
-            <li className="flex text-left">
-              <img src="/rounded-ok.svg" className="m-1" /> <span>İşe alım sonrasında adaptasyon/entegre<br/> olma (onboarding)</span>
-            </li>
-          </ul>
+            <ul className="m-6">
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />{" "}
+                <span>Yeni kurumsal süreçlerin tasarlanması</span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />
+                <span> Yeni proje kurgulama</span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />{" "}
+                <span>Yeni takım oluşturma</span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />{" "}
+                <span>Yeni Ürün/süreç tasarlama</span>
+              </li>
+              <li className="flex text-left">
+                <img src="/rounded-ok.svg" className="m-1" />{" "}
+                <span>
+                  İşe alım sonrasında adaptasyon/entegre
+                  <br /> olma (onboarding)
+                </span>
+              </li>
+            </ul>
           </div>
 
           <p className="text-2xl font-bold mt-12">Nest-In Yaklaşımı</p>
           <div className="my-6 lg:my-12 flex justify-center">
-            <img src="/nest-in-yaklasimi.png" className="lg:h-80"/>
+            <img src="/nest-in-yaklasimi.png" className="lg:h-80" />
           </div>
           <p className="text-sm  mx-auto">
-            * Programın genel yapısı Sprint (yeni ürün geliştirme) prensibi baz alınarak hazırlanır,<br/> ama NEST-IN programı Sprint’ten çok daha fazlasıdır.
+            * Programın genel yapısı Sprint (yeni ürün geliştirme) prensibi baz
+            alınarak hazırlanır,
+            <br /> ama NEST-IN programı Sprint’ten çok daha fazlasıdır.
           </p>
           <p className="text-2xl font-bold mt-12">Program Çıktıları</p>
           <div className="my-6 text-center">

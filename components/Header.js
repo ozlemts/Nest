@@ -1,8 +1,8 @@
 function Header() {
   return (
     <section id="header">
-      <div className="w-full flex justify-between  items-center my-18 flex-wrap">
-        <div className="">
+      <div className="w-full flex justify-between  items-center lg:my-24 my-12 flex-wrap">
+        <div>
           <p className="text-4xl lg:text-6xl font-medium dark:text-blue-100">
             {"Fikirleri"}
           </p>
