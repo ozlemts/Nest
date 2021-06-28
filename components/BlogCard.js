@@ -8,13 +8,13 @@ function BlogCard(props) {
         <p className="text-xl font-bold my-4 dark:text-blue-100">
           {props.blogdata.title}
         </p>
-        <p className="text-gray-400">{props.blogdata.description}</p>
+        <p className="text-gray-400 flex-grow">{props.blogdata.description}</p>
         <div className="flex justify-between mt-3">
           <p>{props.blogdata.date}</p>
           <div className="font-bold">
-            <Link href={props.blogdata.url}>
+            <a href={props.blogdata.url} target="_blank">
               <p className="hover:text-red-500">Daha Fazla</p>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

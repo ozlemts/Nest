@@ -8,7 +8,13 @@ function NestbyPage() {
         <div className="relative flex justify-center">
           <div className="program-summary border border-gray-200 absolute lg:mx-24 flex justify-center items-center flex-wrap lg:rounded-xl lg:p-4 shadow-lg  bg-white dark:bg-blue-500 dark:text-blue-200">
             <div className="lg:max-w-md lg:mx-8">
-              <img src="nest-by.png" className="h-16 m-4" />
+              <div className="h-16 m-4">
+                <img src="/nest-by.png" className="w-24 dark:hidden" />
+                <img
+                  src="/nest-by-light.png"
+                  className="w-24 hidden dark:block"
+                />
+              </div>
             </div>
             <img src="/line.svg" className="hidden md:block" />
             <p className="text-lg font-bold m-4">

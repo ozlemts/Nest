@@ -7,6 +7,7 @@ const menuElements = [
   { name: "Programlar", targetUrl: "/programs" },
   { name: "Nest-By", targetUrl: "/nest-by" },
   { name: "Nest-In", targetUrl: "/nest-in" },
+  { name: "Etkinlikler", targetUrl: "/events" },
   { name: "Blog", targetUrl: "https://blog.viveka.com.tr/" },
 ];
 
