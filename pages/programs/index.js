@@ -44,7 +44,7 @@ function ProgramsPage({ data }) {
               Nest-By
             </Button>
             <Button type="btn-tab" onClick={() => setFilter("nest-in")}>
-              Nest-in
+              Nest-In
             </Button>
             <Button type="btn-tab" onClick={() => setFilter("Hackhathon")}>
               Hackhaton
@@ -76,7 +76,7 @@ export async function getStaticProps() {
     props: {
       data: data,
     },
-    revalidate: 6,
+    revalidate: 600,
   };
 }
 

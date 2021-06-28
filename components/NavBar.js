@@ -23,7 +23,7 @@ function NavBar() {
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold dark:text-blue-100">
         {menuElements.map((e, index) => (
           <Link href={e.targetUrl} key={index}>
-            <p className="hidden md:block hover:text-red-500 dark:hover:text-blue-200">
+            <p className="hidden md:block hover:text-red-500 dark:hover:text-blue-200 cursor-pointer">
               {e.name}
             </p>
           </Link>

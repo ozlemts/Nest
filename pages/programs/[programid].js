@@ -1,8 +1,6 @@
 import { useRouter } from "next/router";
 import Layout from "@/components/Layout";
 import { getTable } from "/pages/api/programs";
-import Link from "next/link";
-import Button from "@/components/Button";
 
 function ProgramPage({ programdata }) {
   const router = useRouter();

@@ -34,7 +34,7 @@ function Header() {
           <div className="flex items-start lg:justify-center lg:items-center">
             <img src="/header-2.svg" className="mr-4" />
             <p>
-              İnnavasyon <br />
+              İnnovasyon <br />
               Stratejisi
             </p>
           </div>

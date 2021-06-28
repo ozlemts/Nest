@@ -7,9 +7,8 @@
     color: #0b132a;
     outline: none;
   }
-
   button {
-    @apply text-gray-500 font-semibold rounded-lg shadow focus:outline-none bg-white shadow hover:bg-opacity-95 hover:shadow-md focus:ring-opacity-0;
+    @apply cursor-pointer text-gray-500 font-semibold rounded-lg shadow focus:outline-none bg-white shadow hover:bg-opacity-95 hover:shadow-md focus:ring-opacity-0;
   }
 
   .btn-primary {
@@ -87,6 +86,10 @@
     outline: none;
     cursor: default;
     transition: opacity 0.3s ease 0s;
+  }
+
+  .logo-svg img {
+    height: 50px;
   }
 }
 
