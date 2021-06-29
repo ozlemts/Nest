@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 function BlogCard(props) {
   return (
     <div className="rounded-lg shadow-lg hover:shadow w-96 text-left dark:bg-blue-500">

@@ -41,9 +41,16 @@ function NestbyPage() {
           <div className="my-6 lg:my-12 flex justify-center">
             <img src="/on-kulucka.png" className="lg:h-96" />
           </div>
-          <p className="text-2xl font-bold mt-12">Ön Kuluçka Programı</p>
+          <p className="text-2xl font-bold mt-16">Ön Kuluçka Programı</p>
           <div className="my-6 lg:my-12 flex justify-center">
-            <img src="/on-kulucka-programi.png" className="lg:h-80" />
+            <img
+              src="/on-kulucka-programi.png"
+              className="lg:h-80 dark:hidden"
+            />
+            <img
+              src="/on-kulucka-programi-dark.png"
+              className="lg:h-80 hidden dark:block"
+            />
           </div>
 
           <p className="text-2xl font-bold mt-12">
@@ -54,7 +61,7 @@ function NestbyPage() {
             kullanılmakta hem de kurum ihtiyacına göre modül olarak da <br />
             gerçekleştirilebilmektedir.
           </p>
-          <div className="my-6 lg:my-12 flex justify-center">
+          <div className="my-6 lg:my-12 flex justify-center dark:bg-white py-4 lg:mx-40">
             <img src="/nest-by-circle.png" className="lg:h-80" />
           </div>
         </div>

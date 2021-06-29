@@ -70,7 +70,6 @@ export async function getStaticProps({ params }) {
   let data = await getTable("programs");
   data = data.filter((o) => o.fields.id === params.programid);
   const programdata = data[0].fields;
-  console.log(programdata);
 
   return {
     props: { programdata },

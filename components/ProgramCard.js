@@ -2,8 +2,6 @@ import Link from "next/link";
 import Button from "@/components/Button";
 
 function ProgramCard(props) {
-  const link = "/programs/" + props.program.id;
-
   return (
     <div className="border-2 border-gray-100 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2">
       <div className="flex flex-col items-center text-center">
@@ -56,9 +54,9 @@ function ProgramCard(props) {
           </li>
         ))}
       </ul>
-      <Link href={link ? "/programs" : "link"}>
+      <a href={`/programs/${props.program.id}`}>
         <Button type="btn-secondary-ghost">İncele</Button>
-      </Link>
+      </a>
     </div>
   );
 }

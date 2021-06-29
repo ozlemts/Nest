@@ -9,7 +9,11 @@ function NestinPage() {
         <div className="relative flex justify-center">
           <div className="program-summary border border-gray-200 absolute lg:mx-24 flex justify-center items-center flex-wrap lg:rounded-xl lg:p-4 shadow-lg  bg-white dark:bg-blue-500 dark:text-blue-200">
             <div className="lg:max-w-md lg:mx-8">
-              <img src="nest-in.png" className="h-16 m-4" />
+              <img src="nest-in.png" className="h-16 m-4 dark:hidden" />
+              <img
+                src="nest-in-light.png"
+                className="h-16 m-4 hidden dark:block"
+              />
             </div>
             <img src="/line.svg" className="hidden md:block" />
             <p className="text-lg font-bold m-4">
@@ -89,7 +93,11 @@ function NestinPage() {
 
           <p className="text-2xl font-bold mt-12">Nest-In Yaklaşımı</p>
           <div className="my-6 lg:my-12 flex justify-center">
-            <img src="/nest-in-yaklasimi.png" className="lg:h-80" />
+            <img src="/nest-in-yaklasimi.png" className="lg:h-80 dark:hidden" />
+            <img
+              src="/nest-in-yaklasimi-dark.png"
+              className="lg:h-80 hidden dark:block"
+            />
           </div>
           <p className="text-sm  mx-auto">
             * Programın genel yapısı Sprint (yeni ürün geliştirme) prensibi baz
