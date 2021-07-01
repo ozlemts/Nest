@@ -2,6 +2,7 @@ import Logo from "@/components/Logo";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import Menu from "@/components/Menu";
+import { useRouter } from "next/router";
 
 const menuElements = [
   { name: "Programlar", targetUrl: "/programs" },
@@ -10,10 +11,8 @@ const menuElements = [
   { name: "Etkinlikler", targetUrl: "/events" },
   { name: "Blog", targetUrl: "https://blog.viveka.com.tr/" },
 ];
-
 function NavBar() {
   const { theme, setTheme } = useTheme();
-
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
@@ -24,7 +23,13 @@ function NavBar() {
       <div className="grid justify-start items-center grid-flow-col gap-4 font-semibold dark:text-blue-100">
         {menuElements.map((e, index) => (
           <Link href={e.targetUrl} key={index}>
-            <p className="hidden md:block hover:text-red-500 dark:hover:text-blue-200 cursor-pointer">
+            <p
+              className={`'/' +  ${
+                e.targetUrl === useRouter().pathname
+                  ? "text-red-500"
+                  : "text-blue-300"
+              } hidden md:block hover:text-red-500 cursor-pointer`}
+            >
               {e.name}
             </p>
           </Link>
