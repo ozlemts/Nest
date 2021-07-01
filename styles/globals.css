@@ -32,11 +32,11 @@
   }
 
   .btn-big {
-    width: 23rem;
+    width: 21rem;
   }
 
   .custom-container {
-    @apply mt-6 w-full px-3 md:px-12 lg:px-36;
+    @apply mt-6 w-full px-3 md:px-2 lg:px-36;
     max-width: 1800px;
     margin: 0 auto;
   }
@@ -62,6 +62,12 @@
     background-repeat: no-repeat;
     background-position: right 10px top 10px;
     top: 0;
+  }
+
+  @media (max-width: 1400px) {
+    .custom-container {
+      @apply px-6;
+    }
   }
 
   @media (max-width: 768px) {

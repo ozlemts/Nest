@@ -1,7 +1,7 @@
 function Header() {
   return (
     <section id="header">
-      <div className="w-full flex justify-between  items-center lg:my-24 my-12 flex-wrap">
+      <div className="w-full flex justify-between  items-center my-24 md:mb-6 flex-wrap">
         <div>
           <p className="text-4xl lg:text-6xl font-medium dark:text-blue-100">
             {"Fikirleri"}
@@ -9,14 +9,14 @@ function Header() {
           <p className="text-4xl lg:text-6xl font-bold dark:text-blue-100">
             {"Büyütüyoruz!"}
           </p>
-          <p className=" my-6 font-semibold text-gray-700 max-w-lg dark:text-blue-200">
+          <p className="my-6 font-semibold text-gray-700 max-w-lg dark:text-blue-200">
             Kurumların inovasyona erişimi için yenilikçi iş fikirlerini hem iç
             hem dış ekosistemle geliştirmeleri için programlar tasarlıyor ve
             yürütüyoruz.
           </p>
         </div>
         <div>
-          <div className="hidden md:block p-4">
+          <div className="hidden md:block p-8">
             <img src="/right-1.svg" />
           </div>
         </div>

@@ -13,22 +13,23 @@ const BlogData = [
       "https://blog.viveka.com.tr/content/images/size/w2000/2020/12/pexels-photo-56759.jpeg",
   },
   {
-    title: "Girişim Gelişim Döngüleri",
-    url: "https://blog.viveka.com.tr/girisim-gelisim-donguleri/",
+    title: "İnovasyona Haiku Yaklaşımı: Tasarım Sprint",
+    url: "https://blog.viveka.com.tr/inovasyon-da-haiku-yaklasimi-tasarim-sprint/",
     description:
-      "Sevgili Zoom`un yorgun savaşçıları... Uzaktan çalışmaya geçtiğimiz zamandan beri bir seneden fazla geçti. Geçirdiğimiz dönemin zorlukları ve ortak kayıplarımız gölgesinde yazı yazmak eskisinden biraz daha güç. ",
-    date: "8 Haziran 2021",
+      "Tasarım sprint, IDEO ve Dschool işbirliği ile Google Ventures içerisinde geliştirilen tasarımsal düşünce süreçleri ile çevik proje geliştirme süreçlerinin birleşimidir. Google Ventures  bu süreci Jake Knapp, John Zeratsky ve Braden Kowitz tarafından popüler hale getirmiştir. ",
+    date: "29 Ocak 2021",
     img_url:
-      "https://blog.viveka.com.tr/content/images/size/w2000/2021/06/pexels-daniel-torobekov-4886378-1.jpg",
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ",
   },
   {
-    title: "10 Saniye Yeni Ömür Uzunluğumuz Mu?",
-    url: "https://blog.viveka.com.tr/yeni-omur-uzunlugu/",
+    title:
+      "Mülteci Girişimciliğini Tanımlamak: Türkiye’de Suriyeli Girişimciler",
+    url: "https://blog.viveka.com.tr/multeci-girisimciligini-tanimlamak-turkiyede-suriyeli-girisimciler/",
     description:
-      "Her geçen gün dikkatlerimiz daha da azalıyor, siz de farkında mısınız? Belki bu yazıyı okurken, belki bir film izlerken, belki sevdiklerimizle sohbet ederken..  2000’li yılların başlarında yetişkin bir insanın bir konuyla alakalı olarak dikkat süresi yaklaşık 12 saniye iken, son yıllarda bu süre 8 saniyeye indi.",
-    date: "6 Haziran 2021",
+      "Bu yazı mülteci girişimciliği ve Türkiye’de yaşamakta olan geçici koruma altındaki Suriyelilerin girişimcilik faaliyetleri hakkındadır. Bu kişilerin Türkiye’de mülteci statüsüne sahip olmadıkları bilinmektedir ancak literatürdeki kavramları değiştirmemek adına yazının tamamında “mülteci” kavramı kullanılmıştır.",
+    date: "16 Ocak 2020",
     img_url:
-      "https://blog.viveka.com.tr/content/images/size/w2000/2021/06/maxresdefault.jpeg",
+      "https://blog.viveka.com.tr/content/images/size/w2000/2020/01/1920-1.jpg",
   },
   {
     title:

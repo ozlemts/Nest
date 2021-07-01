@@ -1,7 +1,30 @@
 import Layout from "@/components/Layout";
-import CircleMenu from "@/components/CircleMenu";
+import ProgramMiniCard from "@/components/ProgramMiniCard";
 
 function NestbyPage() {
+  const samplePrograms = [
+    {
+      id: "cococola",
+      logo: "/ref/dark-cococola.png",
+      name: "Cococola",
+      status: "Tamamlandı",
+      duration: "(2019-2020)",
+    },
+    {
+      id: "cococola",
+      logo: "/ref/dark-cococola.png",
+      name: "Cococola",
+      status: "Tamamlandı",
+      duration: "(2019-2020)",
+    },
+    {
+      id: "cococola",
+      logo: "/ref/dark-cococola.png",
+      name: "Cococola",
+      status: "Tamamlandı",
+      duration: "(2019-2020)",
+    },
+  ];
   return (
     <Layout>
       <div className="mt-56">
@@ -52,7 +75,12 @@ function NestbyPage() {
               className="lg:h-80 hidden dark:block"
             />
           </div>
-
+          <p className="text-2xl font-bold mt-16">Neden Yapmalısınız?</p>
+          <div className="flex justify-center">
+            {samplePrograms.map((p, index) => (
+              <ProgramMiniCard program={p} />
+            ))}
+          </div>
           <p className="text-2xl font-bold mt-12">
             Nest-By Modül ve Metodolojileri
           </p>
