@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 
 function ProgramCard(props) {
   return (
-    <div className="border-2 border-gray-100 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2">
+    <div className="border-2 border-gray-100 hover:border-red-400 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2">
       <div className="flex flex-col items-center text-center">
         <div className="h-12">
           <img

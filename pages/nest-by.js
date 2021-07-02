@@ -77,7 +77,11 @@ function NestbyPage() {
             programlardır.
           </p>
           <div className="my-6 lg:my-12 flex justify-center">
-            <img src="/on-kulucka.png" className="lg:h-96" />
+            <img src="/on-kulucka.png" className="lg:h-96 dark:hidden" />
+            <img
+              src="/on-kulucka-dark.png"
+              className="lg:h-96 hidden dark:block"
+            />
           </div>
           <p className="text-2xl font-bold mt-16">Ön Kuluçka Programı</p>
           <div className="my-6 lg:my-12 flex justify-center">
@@ -107,8 +111,12 @@ function NestbyPage() {
             kullanılmakta hem de kurum ihtiyacına göre modül olarak da <br />
             gerçekleştirilebilmektedir.
           </p>
-          <div className="my-6 lg:my-12 flex justify-center dark:bg-white py-4 lg:mx-40">
-            <img src="/nest-by-circle.png" className="lg:h-80" />
+          <div className="my-6 lg:my-12 flex justify-center py-4 lg:mx-40">
+            <img src="/nest-by-circle.png" className="lg:h-80 dark:hidden" />
+            <img
+              src="/nest-by-circle-dark.png"
+              className="lg:h-80 hidden dark:block"
+            />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import EventCard from "@/components/EventCard";
 import Button from "@/components/Button";
-import { getTable } from "/pages/api/programs";
+import { getTable } from "/pages/api/airtable";
 
 function EventsPage({ data }) {
   return (

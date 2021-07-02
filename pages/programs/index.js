@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import ProgramCard from "@/components/ProgramCard";
 import Button from "@/components/Button";
-import { getTable } from "/pages/api/programs";
+import { getTable } from "/pages/api/airtable";
 import { useState } from "react";
 
 function ProgramsPage({ data }) {

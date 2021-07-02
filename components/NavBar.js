@@ -28,7 +28,7 @@ function NavBar() {
                 e.targetUrl === useRouter().pathname
                   ? "text-red-500"
                   : "text-blue-300"
-              } hidden md:block hover:text-red-500 cursor-pointer`}
+              } hidden md:block hover:text-red-500 cursor-pointer text-sm lg:text-base`}
             >
               {e.name}
             </p>

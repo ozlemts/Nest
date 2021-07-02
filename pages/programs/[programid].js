@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Layout from "@/components/Layout";
-import { getTable } from "/pages/api/programs";
+import { getTable } from "/pages/api/airtable";
 
 function ProgramPage({ programdata }) {
   const router = useRouter();
