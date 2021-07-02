@@ -7,13 +7,12 @@ function Detail() {
       id="details"
       className="w-full flex justify-between my-24 flex-wrap"
     >
-      <div className=" w-full">
-        <p className="text-4xl font-medium">
-          {" "}
+      <div className="w-full text-center">
+        <p className="text-4xl font-medium mb-6">
           Yenilikçi Fikirler ve İnovasyon Dönüşümü <br /> İçin Kuruma Özel
           Programlar
         </p>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap hidden">
           <ul className="my-6">
             <li className="flex items-center">
               <img src="/rounded-ok.svg" className="m-1" /> Disiplinler Arası
@@ -34,11 +33,12 @@ function Detail() {
             </li>
           </ul>
         </div>
-        <div className="flex justify-between flex-wrap lg:mr-24">
+        <div className="flex justify-between flex-wrap">
           <div className="my-4">
-            <p className="mb-4 text-sm">
-              Kurum dışı yenilikçi fikirlere ulaşmak ve <br /> inovasyon
-              stratejisini geliştirmek için girişimcilik <br />
+            <p className="mb-4">
+              Kurum dışı yenilikçi fikirlere <br />
+              ulaşmak ve inovasyon stratejisini <br />
+              geliştirmek için girişimcilik <br />
               programları;
             </p>
             <Link href="/nest-by">
@@ -48,10 +48,14 @@ function Detail() {
             </Link>
           </div>
           <div className=" my-4">
-            <p className="mb-4 text-sm">
-              Kurum içi inovasyon ve girişimcilik stratejisini <br />{" "}
-              geliştirmek, kurum içinden yenilikçi fikirler <br /> üretmek için
-              programlar;
+            <p className="mb-4 ">
+              Kurum içi inovasyon ve girişimcilik
+              <br />
+              stratejisini geliştirmek, kurum
+              <br />
+              içinden yenilikçi fikirler üretmek
+              <br />
+              için programlar;
             </p>
             <Link href="/nest-in">
               <Button type="btn-secondary" shadow size="btn-big">
@@ -60,10 +64,13 @@ function Detail() {
             </Link>
           </div>
           <div className=" my-4">
-            <p className="mb-4 text-sm">
-              Kurumunuzun inovasyon ve yenilikçilik için etki
-              <br /> analizi, proje hazırlama gibi farklı başlıklardaki
-              <br /> ihtiyaçlarına yönelik programlar.
+            <p className="mb-4 ">
+              Kurumunuzun inovasyon ve yenilikçilik
+              <br />
+              için etki analizi, proje hazırlama
+              <br />
+              gibi farklı başlıklardaki ihtiyaçlarına
+              <br /> yönelik programlar.
             </p>
             <Link href="/nest-in">
               <Button type="btn-ternary" shadow size="btn-big">

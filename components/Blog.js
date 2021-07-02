@@ -26,7 +26,7 @@ const BlogData = [
       "Mülteci Girişimciliğini Tanımlamak: Türkiye’de Suriyeli Girişimciler",
     url: "https://blog.viveka.com.tr/multeci-girisimciligini-tanimlamak-turkiyede-suriyeli-girisimciler/",
     description:
-      "Bu yazı mülteci girişimciliği ve Türkiye’de yaşamakta olan geçici koruma altındaki Suriyelilerin girişimcilik faaliyetleri hakkındadır. Bu kişilerin Türkiye’de mülteci statüsüne sahip olmadıkları bilinmektedir ancak literatürdeki kavramları değiştirmemek adına yazının tamamında “mülteci” kavramı kullanılmıştır.",
+      "6,7 milyonluk mülteci nüfusu ile Suriye krizi dünyanın gördüğü en büyük mülteci krizlerinden biri. 2011 yılından beri sayıları zamanla artan 6.7 milyon kişi zorunlu olarak göç ettikleri ülkelerde yaşamlarını farklı şekillerde idame ettirmeye çalışıyorlar.",
     date: "16 Ocak 2020",
     img_url:
       "https://blog.viveka.com.tr/content/images/size/w2000/2020/01/1920-1.jpg",
@@ -69,7 +69,7 @@ function Blog() {
             className="lg:w-2/5 h-72 object-cover"
           />
         </div>
-        <div className="flex flex-wrap justify-between my-8">
+        <div className="grid lg:grid-cols-3 gap-4 my-8">
           <BlogCard blogdata={BlogData[1]} />
           <BlogCard blogdata={BlogData[2]} />
           <BlogCard blogdata={BlogData[3]} />
