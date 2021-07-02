@@ -121,7 +121,7 @@ function NestinPage() {
             <br /> ama NEST-IN programı Sprint’ten çok daha fazlasıdır.
           </p>
           <p className="text-2xl font-bold mt-12">Program Çıktıları</p>
-          <div className="flex justify-center">
+          <div className="flex justify-center flex-wrap">
             {programs.map((e, index) => (
               <div className="border-2 border-red-400 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-6">
                 <div className="flex flex-col items-center text-center">
