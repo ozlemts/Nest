@@ -8,21 +8,36 @@ function NestbyPage() {
       logo: "/ref/dark-cococola.png",
       name: "Cococola",
       status: "Tamamlandı",
-      duration: "(2019-2020)",
+      duration: "2019-2020",
+      advantages: [
+        "Yenilikçi teknoloji ve fikirlere erişim",
+        "Dış kaynak kullanımı ve yetkin insan kaynağına erişim",
+        "İtibar, PR ve kanaat önderliği",
+      ],
     },
     {
       id: "cococola",
       logo: "/ref/dark-cococola.png",
-      name: "Cococola",
+      name: "Cococola 2",
       status: "Tamamlandı",
-      duration: "(2019-2020)",
+      duration: "2019-2020",
+      advantages: [
+        "Yenilikçi teknoloji ve fikirlere erişim",
+        "Dış kaynak kullanımı ve yetkin insan kaynağına erişim",
+        "İtibar, PR ve kanaat önderliği",
+      ],
     },
     {
       id: "cococola",
       logo: "/ref/dark-cococola.png",
-      name: "Cococola",
+      name: "Cococola 3",
       status: "Tamamlandı",
-      duration: "(2019-2020)",
+      duration: "2019-2020",
+      advantages: [
+        "Yenilikçi teknoloji ve fikirlere erişim",
+        "Dış kaynak kullanımı ve yetkin insan kaynağına erişim",
+        "İtibar, PR ve kanaat önderliği",
+      ],
     },
   ];
   return (
@@ -76,10 +91,13 @@ function NestbyPage() {
             />
           </div>
           <p className="text-2xl font-bold mt-16">Neden Yapmalısınız?</p>
-          <div className="flex justify-center">
+          <div className="flex overflow-x-auto">
             {samplePrograms.map((p, index) => (
               <ProgramMiniCard program={p} />
             ))}
+          </div>
+          <div className="flex justify-between items-center">
+            <img src="three-dot.svg" />
           </div>
           <p className="text-2xl font-bold mt-12">
             Nest-By Modül ve Metodolojileri
