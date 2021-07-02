@@ -12,10 +12,15 @@ function ProgramPage({ programdata }) {
   return (
     <Layout>
       <div className="mt-36">
-        <div className="custom-container">
+        <div className="custom-container flex justify-between flex-wrap">
           <p className="font-bold text-red-500 my-8">
             Programlar > {programdata.name}
           </p>
+          <div>
+            <a href="https://twitter.com/intent/tweet?url=https://nest-five.vercel.app/programs/cococola">
+              <img src="/moon.svg" className="h-6"/>
+            </a>
+          </div>
         </div>
         <div className="relative mt-24 flex justify-center">
           <div className="program-summary border border-gray-200 absolute lg:p-12 lg:mx-24 flex justify-center items-center flex-wrap lg:rounded-xl lg:p-4 shadow-lg  bg-white dark:bg-blue-500 dark:text-blue-200">
