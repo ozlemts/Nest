@@ -10,26 +10,43 @@ function ProgramPage({ programdata }) {
     return <p>Loading...</p>;
   }
 
-  const title = "Nest | " + programdata.name + "Programı | " + programdata.duration;
+  const title =
+    "Nest | " + programdata.name + "Programı | " + programdata.duration;
+  const twitter_url =
+    "https://twitter.com/intent/tweet?url=" +
+    "https://nest-five.vercel.app/programs/" +
+    programdata.id;
+  const facebook_url =
+    "https://www.facebook.com/sharer/sharer.php?u=" +
+    "https://nest-five.vercel.app/programs/" +
+    programdata.id;
 
   return (
     <Layout>
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
-        <meta
-          name="twitter:image"
-          content={programdata.cover[0].url}
-        />
+        <meta name="twitter:description" content={programdata.aim} />
+        <meta name="twitter:creator" content="@nest" />
+        <meta name="twitter:site" content="@nest" />
+        <meta name="twitter:image" content={programdata.meta_img[0].url} />
+
+        <meta property="og:image" content={programdata.meta_img[0].url} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={programdata.aim} />
       </Head>
       <div className="mt-36">
         <div className="custom-container flex justify-between flex-wrap">
           <p className="font-bold text-red-500 my-8 dark:text-blue-100">
             Programlar > {programdata.name}
           </p>
-          <div>
-            <a href="https://twitter.com/intent/tweet?url=https://nest-five.vercel.app/programs/cococola">
+          <div className="flex">
+            <a href={twitter_url}>
               <img src="/twitter.svg" className="h-24" />
+            </a>
+            <a href={facebook_url}>
+              <img src="/facebook.svg" className="h-24" />
             </a>
           </div>
         </div>
