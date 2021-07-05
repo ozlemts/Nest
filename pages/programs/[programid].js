@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import Layout from "@/components/Layout";
 import { getTable } from "/pages/api/airtable";
+import Head from "next/head";
 
 function ProgramPage({ programdata }) {
   const router = useRouter();
@@ -11,14 +12,22 @@ function ProgramPage({ programdata }) {
 
   return (
     <Layout>
+      <Head>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={programdata.name} />
+        <meta
+          name="twitter:image"
+          content="https://md.teyit.org/img/analiz-thynin-2-bin-500-calisanini-isten-cikardigi-iddiasi.png"
+        />
+      </Head>
       <div className="mt-36">
         <div className="custom-container flex justify-between flex-wrap">
-          <p className="font-bold text-red-500 my-8">
+          <p className="font-bold text-red-500 my-8 dark:text-blue-100">
             Programlar > {programdata.name}
           </p>
           <div>
             <a href="https://twitter.com/intent/tweet?url=https://nest-five.vercel.app/programs/cococola">
-              <img src="/moon.svg" className="h-6" />
+              <img src="/twitter.svg" className="h-24" />
             </a>
           </div>
         </div>

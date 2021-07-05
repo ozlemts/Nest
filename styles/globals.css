@@ -36,7 +36,7 @@
   }
 
   .custom-container {
-    @apply mt-6 w-full px-3 md:px-2 lg:px-36;
+    @apply mt-6 w-full px-3 md:px-6 lg:px-12 xl:px-36;
     max-width: 1800px;
     margin: 0 auto;
   }
@@ -55,25 +55,6 @@
       #f3e617 100%
     );
     filter: blur(24px);
-  }
-
-  #homepage .background-img {
-    background-image: url("/bg.svg");
-    background-repeat: no-repeat;
-    background-position: right 10px top 10px;
-    top: 0;
-  }
-
-  @media (max-width: 1400px) {
-    .custom-container {
-      @apply px-2;
-    }
-  }
-
-  @media (max-width: 768px) {
-    #homepage .background-img {
-      background-image: none;
-    }
   }
 
   .testimonial-card {

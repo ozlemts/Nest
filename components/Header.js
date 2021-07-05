@@ -2,7 +2,7 @@ function Header() {
   return (
     <section id="header">
       <div className="w-full flex justify-between  items-center my-24 md:mb-6 flex-wrap">
-        <div>
+        <div className="ml-12 xl:ml-0">
           <p className="text-4xl lg:text-6xl font-medium dark:text-blue-100">
             {"Fikirleri"}
           </p>
@@ -16,7 +16,7 @@ function Header() {
           </p>
         </div>
         <div>
-          <div className="hidden md:block p-8">
+          <div className="hidden lg:block p-8">
             <img src="/right-1.svg" />
           </div>
         </div>

@@ -40,7 +40,7 @@ function Layout({ children }) {
         </noscript>
       </Head>
       <div className="flex flex-col justify-between w-full bg-white dark:bg-blue-600 dark:text-blue-100">
-        <div className="w-full background-img">
+        <div className="w-full bg-none bg-no-repeat bg-right-top lg:bg-world ">
           <div className="fixed w-full z-50">
             <NavBar />
           </div>

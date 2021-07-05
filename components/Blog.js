@@ -47,7 +47,7 @@ function Blog() {
   return (
     <section
       id="blog"
-      className="text-center w-full mt-24 lg:px-24 dark:text-blue-200"
+      className="text-center w-full mt-24 px-0 dark:text-blue-200"
     >
       <p className="text-3xl font-bold my-12">Blog</p>
       <div>

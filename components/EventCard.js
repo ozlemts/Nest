@@ -1,6 +1,6 @@
 function BlogCard(props) {
   return (
-    <div className="rounded-lg shadow-lg hover:shadow w-96 text-left dark:bg-blue-500 m-4">
+    <div className="rounded-lg shadow-lg hover:shadow w-96 text-left bg-white dark:bg-blue-500 m-4">
       <img
         src={props.event.img_url[0].url}
         className="w-full lg:h-48 object-cover dark:opacity-75"
