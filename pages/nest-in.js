@@ -21,7 +21,7 @@ function NestinPage() {
   ];
   return (
     <Layout>
-      <div className="mt-56">
+      <div className="mt-56 mb-12">
         <div className="relative flex justify-center">
           <div className="program-summary border border-gray-200 absolute lg:mx-24 flex justify-center items-center flex-wrap lg:rounded-xl lg:p-4 shadow-lg  bg-white dark:bg-blue-500 dark:text-blue-200">
             <div className="lg:max-w-md lg:mx-8">

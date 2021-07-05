@@ -24,7 +24,7 @@ function ProgramsPage({ data }) {
   return (
     <Layout>
       {data.length > 0 && (
-        <div className="custom-container text-center mt-36">
+        <div className="custom-container text-center mt-36 mb-12">
           <p className="text-3xl font-bold">Programlar</p>
           <p className="mt-4">
             Şu an devam eden programlarımızı ve tamamlanmış programlarımızı

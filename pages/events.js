@@ -7,13 +7,13 @@ function EventsPage({ data }) {
   return (
     <Layout>
       {data.length > 0 && (
-        <div className="custom-container text-center mt-36">
+        <div className="custom-container text-center mt-36 mb-12">
           <p className="text-3xl font-bold">Etkinlikler</p>
-          <p className="mt-4">
+          <p className="mt-6">
             Şu an devam eden etkinliklerimizi ve tamamlanmış etkinliklerimizi
             inceleyebilirsiniz.
           </p>
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center mt-8">
             {data.map((e, index) => (
               <EventCard key={index} event={e.fields} />
             ))}

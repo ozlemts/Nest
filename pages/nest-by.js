@@ -111,7 +111,7 @@ function NestbyPage() {
             kullanılmakta hem de kurum ihtiyacına göre modül olarak da <br />
             gerçekleştirilebilmektedir.
           </p>
-          <div className="my-6 lg:my-12 flex justify-center py-4 lg:mx-40">
+          <div className="mt-6 lg:mt-12 flex justify-center pt-4 lg:mx-40">
             <img src="/nest-by-circle.png" className="lg:h-80 dark:hidden" />
             <img
               src="/nest-by-circle-dark.png"

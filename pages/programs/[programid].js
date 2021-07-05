@@ -18,7 +18,7 @@ function ProgramPage({ programdata }) {
           </p>
           <div>
             <a href="https://twitter.com/intent/tweet?url=https://nest-five.vercel.app/programs/cococola">
-              <img src="/moon.svg" className="h-6"/>
+              <img src="/moon.svg" className="h-6" />
             </a>
           </div>
         </div>
