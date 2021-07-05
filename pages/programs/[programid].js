@@ -10,14 +10,16 @@ function ProgramPage({ programdata }) {
     return <p>Loading...</p>;
   }
 
+  const title = "Nest | " + programdata.name + "Programı | " + programdata.duration;
+
   return (
     <Layout>
       <Head>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={programdata.name} />
+        <meta name="twitter:title" content={title} />
         <meta
           name="twitter:image"
-          content={programdata.meta_img[0].url}
+          content={programdata.cover[0].url}
         />
       </Head>
       <div className="mt-36">
