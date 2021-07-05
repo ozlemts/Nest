@@ -17,7 +17,7 @@ function ProgramPage({ programdata }) {
         <meta name="twitter:title" content={programdata.name} />
         <meta
           name="twitter:image"
-          content="https://md.teyit.org/img/analiz-thynin-2-bin-500-calisanini-isten-cikardigi-iddiasi.png"
+          content={programdata.meta_img[0].url}
         />
       </Head>
       <div className="mt-36">
