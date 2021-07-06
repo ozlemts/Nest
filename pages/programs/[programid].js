@@ -14,11 +14,11 @@ function ProgramPage({ programdata }) {
     "Nest | " + programdata.name + "Programı | " + programdata.duration;
   const twitter_url =
     "https://twitter.com/intent/tweet?url=" +
-    "https://nest-five.vercel.app/programs/" +
+    "https://startnest.co/programs/" +
     programdata.id;
   const facebook_url =
     "https://www.facebook.com/sharer/sharer.php?u=" +
-    "https://nest-five.vercel.app/programs/" +
+    "https://startnest.co/programs/" +
     programdata.id;
 
   return (
@@ -27,8 +27,8 @@ function ProgramPage({ programdata }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={programdata.aim} />
-        <meta name="twitter:creator" content="@nest" />
-        <meta name="twitter:site" content="@nest" />
+        <meta name="twitter:creator" content="@start_nest" />
+        <meta name="twitter:site" content="@start_nest" />
         <meta name="twitter:image" content={programdata.meta_img[0].url} />
 
         <meta property="og:image" content={programdata.meta_img[0].url} />
