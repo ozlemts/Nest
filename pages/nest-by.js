@@ -9,9 +9,10 @@ function NestbyPage() {
       "İtibar, PR ve kanaat önderliği",
     ],
     enterpr: [
-      "Yenilikçi teknoloji ve fikirlere erişim",
-      "Dış kaynak kullanımı ve yetkin insan kaynağına erişim",
-      "İtibar, PR ve kanaat önderliği",
+      "Fikirden MVP’ye ulaşma",
+      "Ürün - pazar validasyonu",
+      "Ürünleşme ve ticarileşme",
+      "Teknik ve ticari bilgi ve deneyim kazanımı",
     ],
   };
   return (
@@ -75,9 +76,9 @@ function NestbyPage() {
               <p className="text-xl font-semibold text-red-400">
                 Donöre Faydaları
               </p>
-              <ul className="my-6 text-center">
+              <ul className="my-6 w-96">
                 {samplePrograms.donor.map((e, index) => (
-                  <li className="flex text-left items-start my-3 mr-1">
+                  <li className="flex text-left items-center my-3 mr-1">
                     <img src="/rounded-ok.svg" className="m-1" />
                     <p>{e}</p>
                   </li>
@@ -90,9 +91,9 @@ function NestbyPage() {
               </p>
 
               <div>
-                <ul className="my-6">
-                  {samplePrograms.donor.map((e, index) => (
-                    <li className="flex text-left items-start my-3 mr-1">
+                <ul className="my-6 w-96">
+                  {samplePrograms.enterpr.map((e, index) => (
+                    <li className="flex text-left items-center my-3 mr-1">
                       <img src="/rounded-ok.svg" className="m-1" />
                       <p>{e}</p>
                     </li>
