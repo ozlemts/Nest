@@ -52,7 +52,7 @@ function Testimonials() {
     },
   ];
   return (
-    <section id="testimonials" className="text-center w-full mt-24">
+    <section id="testimonials" className="text-center w-full mt-24 hidden">
       <p className="text-3xl font-bold">Paydaşlarımızın Görüşleri</p>
       <div className="flex overflow-x-auto">
         {testimonials.map((t) => (
