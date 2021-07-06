@@ -8,9 +8,9 @@ function EventsPage({ data }) {
     <Layout>
       {data.length > 0 && (
         <div className="custom-container text-center mt-36 mb-12">
-          <p className="text-3xl font-bold">Etkinlikler</p>
+          <p className="text-3xl font-bold">Faaliyetler</p>
           <p className="mt-6">
-            Şu an devam eden etkinliklerimizi ve tamamlanmış etkinliklerimizi
+            Şu an devam eden faaliyetlerimizi ve tamamlanmış faaliyetlerimizi
             inceleyebilirsiniz.
           </p>
           <div className="flex flex-wrap justify-center mt-8">

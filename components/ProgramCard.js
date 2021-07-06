@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 
 function ProgramCard(props) {
   return (
-    <div className="border-2 border-gray-100 hover:border-red-400 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2">
+    <div className="border-2 border-gray-100 hover:border-red-400 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-2 flex flex-col justify-between">
       <div className="flex flex-col items-center text-center">
         <div className="h-12">
           <img
@@ -22,10 +22,7 @@ function ProgramCard(props) {
           />
         </div>
         <Link href={props.program.url}>
-          <img
-            src={props.program.logo ? props.program.logo[0].url : "/moon.svg"}
-            className="my-8 h-12"
-          />
+          <img src={props.program.logo[0].url} className="my-8 h-12" />
         </Link>
         <p className="text-2xl text-blue-500 dark:text-white font-semibold">
           {props.program.name}

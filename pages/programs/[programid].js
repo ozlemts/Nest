@@ -37,16 +37,16 @@ function ProgramPage({ programdata }) {
         <meta property="og:description" content={programdata.aim} />
       </Head>
       <div className="mt-36">
-        <div className="custom-container flex justify-between flex-wrap">
+        <div className="custom-container flex justify-between flex-wrap items-center">
           <p className="font-bold text-red-500 my-8 dark:text-blue-100">
             Programlar > {programdata.name}
           </p>
           <div className="flex">
             <a href={twitter_url}>
-              <img src="/twitter.svg" className="h-24" />
+              <img src="/twitter.svg" className="h-12 p-2" />
             </a>
             <a href={facebook_url}>
-              <img src="/facebook.svg" className="h-24" />
+              <img src="/facebook.svg" className="h-12 p-2" />
             </a>
           </div>
         </div>
@@ -70,7 +70,7 @@ function ProgramPage({ programdata }) {
           />
         </div>
 
-        <div className="flex flex-col justify-center w-full custom-container mt-5 text-center lg:px-80">
+        <div className="flex flex-col justify-center w-full custom-container my-5 text-center lg:px-80">
           <div className="">
             <p className="mt-4"> Burada {programdata.description}</p>
             <p className="text-2xl font-bold mt-8"> Amaç</p>

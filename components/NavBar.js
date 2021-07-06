@@ -9,7 +9,7 @@ const menuElements = [
   { name: "Programlar", targetUrl: "/programs" },
   { name: "Nest-By", targetUrl: "/nest-by" },
   { name: "Nest-In", targetUrl: "/nest-in" },
-  { name: "Etkinlikler", targetUrl: "/events" },
+  { name: "Faaliyetler", targetUrl: "/events" },
   { name: "Blog", targetUrl: "https://blog.viveka.com.tr/" },
 ];
 function NavBar() {
@@ -48,6 +48,7 @@ function NavBar() {
           </button>
           <div className="md:hidden">
             <button
+              aria-label="Toggle Menu"
               type="button"
               className="w-10 h-10 flex justify-center items-center rounded dark:bg-blue-500"
               onClick={() => setMobile(!mobile)}
