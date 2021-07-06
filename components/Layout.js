@@ -7,6 +7,20 @@ function Layout({ children }) {
     <div>
       <Head>
         <title>Nest | Where Ideas & People Grow</title>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-2Y8LHCB23Y"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2Y8LHCB23Y');
+        `,
+          }}
+        />
         <meta
           name="description"
           content="Nest özünde girişimcilik dinamizmini destekleyen ve bundan farklı olarak, bu dinamizmi kendi şirket kültürüne entegre etmek isteyen kurum ve şirketlere özel programlar tasarlayan, bu programları yürüten bir yapıda kurulmuştur. "
