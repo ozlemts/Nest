@@ -49,7 +49,20 @@ function NestinPage() {
             verimli <br />
             çalışmalarını sağlamayı hedefleyen programlardır.
           </p>
-
+          <p className="text-2xl font-bold mt-12">Nest-In Yaklaşımı</p>
+          <div className="my-6 lg:my-12 flex justify-center">
+            <img src="/nest-in-yaklasimi.png" className="lg:h-96 dark:hidden" />
+            <img
+              src="/nest-in-yaklasimi-dark.png"
+              className="lg:h-96 hidden dark:block"
+            />
+          </div>
+          <p className="text-sm  mx-auto">
+            * Programın genel yapısı Sprint (yeni ürün geliştirme) prensibi baz
+            alınarak hazırlanır,
+            <br /> ama NEST-IN programı Sprint’ten çok daha fazlasıdır.
+          </p>
+          <p className="text-2xl font-bold mt-12">Ne Zaman Yapmalısınız?</p>
           <div className="flex justify-center flex-wrap my-2">
             <ul className="m-6">
               <li className="flex text-left">
@@ -101,48 +114,6 @@ function NestinPage() {
                 </span>
               </li>
             </ul>
-          </div>
-
-          <p className="text-2xl font-bold mt-12">Nest-In Yaklaşımı</p>
-          <div className="my-6 lg:my-12 flex justify-center">
-            <img src="/nest-in-yaklasimi.png" className="lg:h-96 dark:hidden" />
-            <img
-              src="/nest-in-yaklasimi-dark.png"
-              className="lg:h-96 hidden dark:block"
-            />
-          </div>
-          <p className="text-sm  mx-auto">
-            * Programın genel yapısı Sprint (yeni ürün geliştirme) prensibi baz
-            alınarak hazırlanır,
-            <br /> ama NEST-IN programı Sprint’ten çok daha fazlasıdır.
-          </p>
-          <p className="text-2xl font-bold mt-12">Neden Yapmalısınız?</p>
-          <div className="flex justify-center flex-wrap">
-            {programs.map((e, index) => (
-              <div className="border-2 border-red-400 dark:border-blue-400 bg-white dark:bg-blue-600 rounded-lg px-8 py-5 w-80 m-6">
-                <div className="flex flex-col items-center text-center">
-                  <img src={e.logo} className="my-8 h-12" />
-                  <p className="text-2xl text-blue-500 dark:text-white font-semibold">
-                    {e.name}
-                  </p>
-                  <div className="text-blue-400 dark:text-blue-300 font-semibold">
-                    <p
-                      className={
-                        e.status === "Tamamlandı"
-                          ? "text-red-300"
-                          : "text-green-500"
-                      }
-                    >
-                      {e.status}
-                    </p>
-                    <p>({e.duration})</p>
-                  </div>
-                </div>
-                <a href={`/programs/${e.id}`}>
-                  <Button type="btn-secondary-ghost">İncele</Button>
-                </a>
-              </div>
-            ))}
           </div>
           <div className="my-6 text-center">
             <Link href="/programs">

@@ -34,7 +34,7 @@ function Programs() {
     },
     {
       id: "picus",
-      logo: [{ url: "/ref/dark-cococola.png" }],
+      logo: [{ url: "/ref/dark-picus.png" }],
       url: "/",
       name: "Picus Onboarding Sprint",
       type: "nest-in",
